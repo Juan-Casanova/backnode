@@ -1,0 +1,9 @@
+<%- include('../template/head')-%>
+    <div>
+        <ul>
+            <% items.forEach(task=>{ %>
+            <li> <%= task.title %> </li>
+            <% }) %>
+        </ul>
+    </div>
+<%- include('../template/footer')-%>
