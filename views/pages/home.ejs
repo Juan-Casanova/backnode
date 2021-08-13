@@ -1,9 +1,12 @@
 <%- include('../template/head')-%>
-    <div>
-        <ul>
-            <% items.forEach(task=>{ %>
-            <li> <%= task.title %> </li>
-            <% }) %>
-        </ul>
+<%- include('./nav')-%>
+
+    <div class="container col-6 offset-3 reg-form-area mt-5 mb-5">
+        <h2 class="text-center tittle-Form">Bienvenido Organiza tus tareas</h2>
+        <div class="container-fluid mt-5 mb-5">
+            <a href="/login" class="btn btn-primary col-2 offset-3">Ingresa</a>
+            <a href="/registro" class="btn btn-primary col-2 offset-2">Registrate</a>
+        </div>
     </div>
+
 <%- include('../template/footer')-%>

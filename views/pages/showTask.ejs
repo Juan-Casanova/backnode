@@ -1,0 +1,31 @@
+<%- include('../template/head')-%>
+<%- include('./nav')-%>
+
+    <div class= "container col-6 offset-3 reg-form-area">
+        <h2 class="text-center tittle-Form">Registro de usuarios</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-center">Task</th>
+                    <th scope="col" class="text-center">Status</th>
+                    <th scope="col" class="text-center">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% items.forEach(task=>{ %>
+                    <tr>
+                        <td class="text-center"> <%= task.title %> </td>
+                        <td class="text-center"> Hecha </td>
+                        <td class="text-center"> 
+                            <div class="container">
+                                <i class="bi bi-pencil btn btn-outline-success mx-1"></i>
+                                <i class="bi bi-trash btn btn-outline-danger mx-1"></i>
+                            </div>
+                        </td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </div>
+
+<%- include('../template/footer')-%>

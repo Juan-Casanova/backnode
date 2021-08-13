@@ -1,0 +1,42 @@
+body {
+    background-image: url("../assets/bg1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.styleNav {
+    margin-bottom: 1%;
+    color: white;
+}
+
+.menu-left {
+    padding-left: 15px;
+}
+
+.menu-right {
+    padding-right: 15px;
+}
+
+.style-Footer {
+    text-align: center;
+    color: white;
+}
+
+.reg-form-area {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #929090;
+}
+
+.container-Main {
+    padding: 20px;
+    --bs-gutter-x: 0;
+}
+
+.tittle-Form {
+    font-weight: bolder;
+}

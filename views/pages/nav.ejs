@@ -1,0 +1,27 @@
+<nav class="navbar navbar-dark bg-dark styleNav">
+    <div class="d-flex menu-left">
+        <a href="" class="navbar-brand">
+            Inicio
+        </a>
+        <a href="" class="navbar-brand">
+            Registro
+        </a>
+        <a href="" class="navbar-brand">
+            Registro
+        </a>
+        <a href="" class="navbar-brand">
+            Registro
+        </a>
+    </div>
+    <div class="d-flex menu-right">
+        <a href="/logout" class="navbar-brand">
+            Log Out
+        </a>
+        
+        <% if(userName !== false){ %>
+            <a class="navbar-brand"> <%= userName %></a>
+        <% } %> 
+        
+        
+    </div>
+</nav>
